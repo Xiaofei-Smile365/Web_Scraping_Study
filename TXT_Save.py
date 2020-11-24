@@ -36,7 +36,7 @@ def main():
         author = item.find('.author-link-line').text()
         answer = pq(item.find('.content').html()).text()
         file = open('./source_file/explore.txt', 'a', encoding='utf-8')
-        file.write('\n'.join[question, author, answer])
+        file.write('\n'.join([question, author, answer]))
         file.write('\n' + '=' * 50 + '\n')
         file.close()
 
