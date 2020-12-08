@@ -1,23 +1,11 @@
 <component name="InspectionProjectProfileManager">
   <profile version="1.0">
     <option name="myName" value="Project Default" />
-    <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
-      <option name="myValues">
-        <value>
-          <list size="1">
-            <item index="0" class="java.lang.String" itemvalue="height" />
-          </list>
-        </value>
-      </option>
-      <option name="myCustomValuesEnabled" value="true" />
-    </inspection_tool>
     <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
       <option name="ignoredErrors">
         <list>
           <option value="E501" />
           <option value="E722" />
-          <option value="E302" />
-          <option value="E305" />
         </list>
       </option>
     </inspection_tool>
@@ -29,20 +17,11 @@
         </list>
       </option>
     </inspection_tool>
-    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
-      <option name="ignoredNames">
-        <list>
-          <option value="sum" />
-          <option value="input" />
-        </list>
-      </option>
-    </inspection_tool>
     <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="ignoredIdentifiers">
         <list>
           <option value="PyQt5.QtCore.pyqtBoundSignal.connect" />
           <option value="Test_Log_Backup_Programe.en" />
-          <option value="line_profiler" />
         </list>
       </option>
     </inspection_tool>
